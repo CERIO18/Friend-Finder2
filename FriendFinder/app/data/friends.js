@@ -15,8 +15,6 @@ var friends = [{
     "name":"Sassy",
     "photo":"http://.jpg",
     "scores":[1,3,4,3,7,2,5,1,3,5]
-  }
-  
-  ]
+  }]
   
   module.exports = friends;
