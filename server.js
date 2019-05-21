@@ -1,7 +1,7 @@
 // var bodyParser = require('body-parser');
 var express = require('express');
 var path = require("path");
-var friends = require('./app/data/friends.js');
+var friends = require('./FriendFinder/app/data/friends');
 // express make eassy for as using node js and we are setting variable app = to the function express so we can eassly call it
 var app = express();
 // whatever plot is define by the deployement side like heruku or 8080. This will work on local host and we don't have to reconfigure it whenever we have to deploy it in live
@@ -15,28 +15,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
-
-
-// parse application/x-www-form-urlencoded json form,it's is eassy to manipulate
-// bodyParser - is allow us to recive our information back in 
-
-// app.use(bodyParser.urlencoded({ extended: false }))
-
-// parse application/json
-
-// app.use(bodyParser.json())
-
-
-
-
-// api routing - from api_routs.js
-
-require("./app/routing/apiRoutes.js")(app);
+require("./FriendFinder/app/../routing/apiRoutes")(app);
 // to navigate html file - from html_routs.js
-require("./app/routing/htmlRoutes.js")(app);
-
-
-
+require("./FriendFinder/app/../routing/htmlRoutes")(app);
 
 
 app.listen(PORT, function () {

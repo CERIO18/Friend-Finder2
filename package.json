@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CERIO18/Friend-Finder2/issues"
   },
-  "homepage": "https://github.com/CERIO18/Friend-Finder2#readme"
+  "homepage": "https://github.com/CERIO18/Friend-Finder2#readme",
+  "dependencies": {
+    "express": "^4.17.0"
+  }
 }
