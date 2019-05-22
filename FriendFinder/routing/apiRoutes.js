@@ -1,18 +1,15 @@
 var friends = require("../app/data/friends")
 
-
 module.exports = function (app) {
-  // when the url is "/api/table" display the data in json format
+
   app.get("/api/friends", function (req, res) {
     res.json(friends);
   });
 
-
   app.post("/api/friends", function (req, res) {
-    // req.body hosts is equal to the JSON post sent from the user
-    // This works because of our body parsing middleware
+    
     var newFriend = req.body;
-    // compute best match from scores
+  
     var bestMatch = {};
 
     for (var i = 0; i < newFriend.scores.length; i++) {
