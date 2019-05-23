@@ -34,12 +34,12 @@
     font-family: Cambria, sans-serif;
   }
   
-  .btn {
+  /* .btn {
     margin-top: 10px;
     margin-left: 10px;
     border-color:white;
    
-  }
+  } */
 
   #survey {
     background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
@@ -74,12 +74,12 @@
     color:purple;
   }
 
-  h4 {
+  /* h4 {
     color:white;
     font-family: Cambria, sans-serif;
     text-align: center;
     font-size: 30px
-  }
+  } */
 
   #submit {
     text-align: center;
