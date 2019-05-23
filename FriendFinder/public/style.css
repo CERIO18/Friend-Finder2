@@ -25,6 +25,7 @@
   
   .link{
     color: rgb(63, 12, 158);
+    font-family: Cambria, sans-serif;
   }
 
   #button {
@@ -33,24 +34,12 @@
     font-family: Cambria, sans-serif;
   }
   
-   #home {
-    margin-top: 40px;
-    margin-left: 40px;
-  } 
-  
-   .btn-outline-info:hover{
-    font-weight: bolder;
-  }
-  
   .btn {
     margin-top: 10px;
     margin-left: 10px;
     border-color:white;
    
   }
-  .btn-outline-info {
-    font-weight: bolder;
-  } 
 
   #survey {
     background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
@@ -106,15 +95,15 @@
   }
   
   #resultbody {
-    background-color:rgb(255, 176, 3);
+    background-color:rgb(255, 3, 171);
   }
   
   #resulthead {
-  background-color:rgb(255, 218, 88);
+  background-color:rgb(170, 11, 122);
   }
   
   #resultfooter{
-    background-color:rgb(255, 218, 88);
+    background-color:rgb(31, 15, 170);
   }
   
   #closeModal {
